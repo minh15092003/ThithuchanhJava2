@@ -1,0 +1,12 @@
+CREATE DATABASE thithuchanhjava2;
+   CREATE TABLE student (
+    studentID INT NOT NULL,
+    name varchar(200),
+    address varchar(250),
+    phone varchar(25),
+    PRIMARY KEY (studentID)
+) ENGINE = INNODB
+INSERT INTO student
+values (10, 'Ta Van Minh Test1', 'address10', '36176135'),
+       (11, 'Ta Van Minh test2', 'address11', '53153613517'),
+       (12, 'Ta Van Minh test3', 'address12', '462746272')
